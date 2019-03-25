@@ -17,4 +17,3 @@ console.log(media.toString());
 console.log(media.toString(2));
 console.log(typeof media);
 console.log(typeof Number); // retorna uma função
-
