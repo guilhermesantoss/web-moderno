@@ -24,3 +24,6 @@ externo: for (a in nums) {
 }
 
 console.log('Fim!');
+
+// O BREAK só funciona dentro do SWITCH / FOR / WHILE
+// CONTINUE só funciona dentro de estruturas de repetição: FOR / WHILE
