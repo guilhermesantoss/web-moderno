@@ -1,4 +1,4 @@
-// sem promisse
+// sem promise...
 const http = require('http');
 
 const getTurma = (letra, callback) => {
@@ -13,7 +13,7 @@ const getTurma = (letra, callback) => {
     res.on('end', () => {
       callback(JSON.parse(resultado));
     });
-  })
+  });
 }
 
 let nomes = [];
