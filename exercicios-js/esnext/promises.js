@@ -1,7 +1,11 @@
 function falarDepoisDe(segundos, frase) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      resolve(frase);
+      if (frase.length < 10) {
+        reject("Frase tem menos de 10 caracteres");
+      } else {
+        resolve(frase);
+      }
     }, segundos * 1000);
   });
 }
